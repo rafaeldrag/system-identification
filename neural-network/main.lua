@@ -1,10 +1,3 @@
---[[Source Code that implements the the learning controller described in my IEEE T-Ro Journal:
-   Learning deep neural network policies for head motion control in maskless cancer RT
-   Olalekan Ogunmolu. IEEE International Conference on Robotics and Automation (ICRA), 2017
-
-   Author: Olalekan Ogunmolu, December 2015 - May 2016
-   Freely distributed under the MIT License
-   ]]
 
 -- needed dependencies
 require 'torch'
@@ -25,14 +18,6 @@ require 'utils.model'
 -------------------------------------------------------------------------------
 local cmd = torch.CmdLine()
 cmd:text()
-cmd:text('===========================================================================')
-cmd:text('         Identification and Control of Nonlinear Systems Using Deep        ')
-cmd:text('                      Neural Networks                                      ')
-cmd:text(                                                                             )
-cmd:text('             Olalekan Ogunmolu. May 2016                                 ')
-cmd:text(                                                                             )
-cmd:text('Code by Olalekan Ogunmolu: lexilighty [at] gmail [dot] com')
-cmd:text('===========================================================================')
 cmd:text(                                                                             )
 cmd:text(                                                                             )
 cmd:text('Options')
